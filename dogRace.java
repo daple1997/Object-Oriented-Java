@@ -16,7 +16,7 @@ import java.util.*;
 
 public class dogRace {
 	
-	private final String DOG_FILE = "res/dogs.txt"; 
+	private final String DOG_FILE = "dogs.txt"; 
 	
 	ArrayList<Assignment1> DogList;
 	Scanner input;
@@ -129,15 +129,15 @@ public class dogRace {
 	 * @throws Exception handles errors
 	 */
 	public void createReport() throws Exception {
-			System.out.printf("%-15s%28s%47s%n","Report","GAMBLERS – Course Time: 56.7",
+			System.out.printf("%-15s%28s%47s%n","Report","GAMBLERS â€“ Course Time: 56.7",
 					getCurrentDate());
 			
 			printData("G");
-			System.out.printf("%-15s%28s%47s%n","Report","JUMPERS – Course Time: 23.5",
+			System.out.printf("%-15s%28s%47s%n","Report","JUMPERS â€“ Course Time: 23.5",
 					getCurrentDate());
 			printData("J");
 			
-			System.out.printf("%-15s%28s%47s%n","Report","Titling – Course Time: 67.9",
+			System.out.printf("%-15s%28s%47s%n","Report","Titling â€“ Course Time: 67.9",
 					getCurrentDate());
 			printData("T");
 	}
