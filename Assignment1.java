@@ -154,7 +154,7 @@ public class Assignment1 {
 	
 	public double getDifference() throws Exception{
 		double [] record = new double [3];
-		final String COURSE_FILE = "res/courses.txt";
+		final String COURSE_FILE = "courses.txt";
 		File myFile = new File(COURSE_FILE);
 		Scanner reader = new Scanner(myFile);
 		String [] recordNameArray;
